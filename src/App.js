@@ -1,14 +1,20 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import { SingleCard } from "./components/SingleCard";
+import Gus from "./images/Gus.webp";
+import Hank from "./images/Hank.webp";
+import Jesse from "./images/Jesse.webp";
+import Saul from "./images/Saul.webp";
+import Skyler from "./images/Skyler.webp";
+import Walt from "./images/Walt.webp";
 
 const cardImages = [
-  { src: "/images/Gus.webp", matched: false },
-  { src: "/images/Hank.webp", matched: false },
-  { src: "/images/Jesse.webp", matched: false },
-  { src: "/images/Saul.webp", matched: false },
-  { src: "/images/Skyler.webp", matched: false },
-  { src: "/images/Walt.webp", matched: false },
+  { src: Gus, matched: false },
+  { src: Hank, matched: false },
+  { src: Jesse, matched: false },
+  { src: Saul, matched: false },
+  { src: Skyler, matched: false },
+  { src: Walt, matched: false },
 ];
 
 function App() {
