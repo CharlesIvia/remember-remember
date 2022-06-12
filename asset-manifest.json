@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/remember-remember/static/css/main.d306a035.css",
+    "main.js": "/remember-remember/static/js/main.f7e7160d.js",
+    "index.html": "/remember-remember/index.html",
+    "main.d306a035.css.map": "/remember-remember/static/css/main.d306a035.css.map",
+    "main.f7e7160d.js.map": "/remember-remember/static/js/main.f7e7160d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d306a035.css",
+    "static/js/main.f7e7160d.js"
+  ]
+}
