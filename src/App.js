@@ -58,11 +58,18 @@ function App() {
     }
   }, [choiceOne, choiceTwo]);
 
+  //reset choice and increment turns
   const resetTurn = () => {
     setChoiceOne(null);
     setChoiceTwo(null);
     setTurns((prevTurn) => prevTurn + 1);
   };
+
+  //start game automatically
+
+  useEffect(() => {
+    shuffleCards();
+  }, []);
 
   return (
     <div className="App">
@@ -78,7 +85,6 @@ function App() {
           />
         ))}
       </div>
-
       <p>Turns: {turns}</p>
     </div>
   );

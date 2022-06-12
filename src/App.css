@@ -1,3 +1,33 @@
+body {
+  background: #ff43;
+  background: linear-gradient(
+      rgba(33, 53, 18, 0.3) 0%,
+      rgba(38, 88, 19, 0.4) 30%,
+      rgba(73, 91, 9, 0.3) 74%,
+      rgba(24, 43, 4, 0.3) 100%
+    ),
+    #000;
+}
+
+.App h2 {
+  color: whitesmoke;
+  font-size: 32px;
+}
+
+.App button {
+  background: linear-gradient(
+      rgba(33, 53, 18, 0.3) 0%,
+      rgba(38, 88, 19, 0.4) 30%,
+      rgba(73, 91, 9, 0.3) 74%,
+      rgba(24, 43, 4, 0.3) 100%
+    ),
+    #000;
+  border: 2px solid #ff4;
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+}
+
 .App {
   text-align: center;
   max-width: 860px;
@@ -8,4 +38,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
+}
+
+.App p {
+  color: white;
 }
